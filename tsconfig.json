@@ -1,0 +1,8 @@
+{
+    // configuração para envio de arquivos para o repositório dist apos a compilação
+    "compilerOptions": {
+        "outDir": "dis/js", // escolha do diretorio de destino;
+        "target": "ES6" // versao do ecma utilizado apos a compilação; 
+    },
+    "inclide": ["app/**/*"] // busca de arquivos na pasta app / todas as subpastas / e qualquer arquivo para enviar ao diretorio dist
+}
