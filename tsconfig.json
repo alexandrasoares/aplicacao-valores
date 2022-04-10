@@ -1,8 +1,9 @@
 {
     // configuração para envio de arquivos para o repositório dist apos a compilação
     "compilerOptions": {
-        "outDir": "dis/js", // escolha do diretorio de destino;
-        "target": "ES6" // versao do ecma utilizado apos a compilação; 
+        "outDir": "dis/js", // diretorio de destino dos arquivos após a compilação;
+        "target": "ES6", // versao ecma do javascript utilizado apos a compilação do typescript; 
+        "noEmitOnError": true // não permite que os arquivos javascript sejam gerados no diretorio dist caso exista erros em arquivos typescript no momento da compilação;
     },
-    "inclide": ["app/**/*"] // busca de arquivos na pasta app / todas as subpastas / e qualquer arquivo para enviar ao diretorio dist
+    "inclide": ["app/**/*"] // vai ler os arquivos da pasta app / todas as subpastas / e qualquer arquivo para gerar o diretorio dist
 }
