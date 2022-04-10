@@ -1,7 +1,7 @@
 {
     // configuração para envio de arquivos para o repositório dist apos a compilação
     "compilerOptions": {
-        "outDir": "dis/js", // diretorio de destino dos arquivos após a compilação;
+        "outDir": "dist/js", // diretorio de destino dos arquivos após a compilação;
         "target": "ES6", // versao ecma do javascript utilizado apos a compilação do typescript; 
         "noEmitOnError": true // não permite que os arquivos javascript sejam gerados no diretorio dist caso exista erros em arquivos typescript no momento da compilação;
     },
